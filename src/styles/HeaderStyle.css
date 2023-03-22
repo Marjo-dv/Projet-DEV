@@ -10,7 +10,6 @@
 
 .navbar ul{
     list-style: none;
-    padding: 0px;
     margin: 0px;
 }
 
@@ -21,16 +20,12 @@
 
 .navbar a{
     font-weight: bold;
-    color: inherit;
+    color: darkslategray;
     text-decoration: none;
     cursor: pointer;
 }
 .navbar a:hover{
     color:var(--primary-color);
-}
-
-.navbar .column-middle{
-    flex-grow: 1;
 }
 
 .navbar .column-middle img{

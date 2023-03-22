@@ -1,15 +1,7 @@
 .footer {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    bottom: 0;
-    margin-top: 100%; 
+    color:darkslategrey;
     background-color: gainsboro;
-    padding: 25px;
-    justify-content: center;
-}
-
-.footer .column-middle{
-    flex-grow: 1;
-    justify-content: center;
+    justify-content: space-around;
 }
