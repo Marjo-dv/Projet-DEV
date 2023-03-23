@@ -26,7 +26,7 @@ function Card ({ restaurant }) {
 
       <div className='card-body'>
         <h4>{attributes.name}</h4>
-        <p>{attributes.description}n</p>
+        <p>{attributes.description}</p>
       </div>
       <div className='card-footer'>
         <button onClick={handleClick}>Découvrir le restaurant</button>

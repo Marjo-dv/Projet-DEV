@@ -1,0 +1,51 @@
+.dishes-list{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+
+.card{
+  display : flex;
+  max-width: 500px;
+  justify-content: space-evenly;
+  border: white 2px solid;
+}
+
+b{
+  color:var(--primary-color);
+  font-weight: 800;
+  font-size: larger;
+}
+
+.card .card-header img{
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+
+.card .card-body{
+  margin-block : 0;
+  text-align: left;
+}
+
+.card .card-footer button{
+  padding : 15px 30px;
+  background-color:var(--primary-color);
+  border:none;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color:azure;
+  transition : all 300ms ease-in-out;
+  cursor: pointer;
+}
+
+.card .card-footer button:hover{
+  background-color: #fa3560;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 8px;
+  transform:translateY(-1.5px);
+  color:azure;
+}

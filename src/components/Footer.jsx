@@ -12,7 +12,7 @@ function Footer () {
       </div>
 
       <div className='column-right'>
-        RESTO
+        RESTO 3
       </div>
 
     </footer>
